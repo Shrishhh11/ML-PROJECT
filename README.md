@@ -1,18 +1,18 @@
 # Intent Classification in Chatbot Systems: Machine Learning vs Deep Learning Approaches
 
-A systematic investigation examining how intent recognition algorithms perform when transitioning from traditional machine learning frameworks to modern neural architectures in natural language understanding tasks.
+A thorough study assessing the performance of intent recognition algorithms during the shift from conventional machine learning models to contemporary neural networks in natural language understanding activities
+
 
 ---
 
-## 📚 Project Overview
+##  Project Overview
 
 ### Background Context
-Intent recognition forms the foundation of **conversational AI** systems that power chatbots, voice assistants, and automated helpdesk agents. By classifying user inputs into predefined *intent categories* (such as greetings, help requests, or feedback), these systems determine the appropriate response.
+Chatbots, voice assistants, and automated help desk representatives are powered by **conversational AI** systems, which rely on intent recognition.  These systems identify the right response by categorising user inputs into predetermined *intent categories* (e.g., greetings, help requests, or comments).
 
-Despite widespread deployment in customer support and e-commerce applications, performance discrepancies often emerge between **rule-based**, **machine learning**, and **deep learning** approaches. Traditional models rely heavily on word frequency or TF-IDF features, while deep networks capture semantic context and variability in phrasing.
+ Even though **rule-based**, **machine learning**, and **deep learning** techniques are widely used in customer service and e-commerce applications, performance differences frequently occur.  While deep networks capture semantic context and phrase diversity, traditional models mostly rely on word frequency or TF-IDF features.
 
-This project systematically evaluates both paradigms to determine the trade-offs between **accuracy, generalization, and computational complexity** when applied to a publicly available chatbot dataset.
-
+ Using a publicly accessible chatbot dataset, this project methodically assesses both paradigms to ascertain the trade-offs between **accuracy, generalisation, and computational complexity**.
 ### Significance and Impact
 Accurate intent classification is crucial for improving:
 * **Customer satisfaction**, by delivering faster and relevant responses.
@@ -23,7 +23,7 @@ The chatbot industry is projected to reach **$20.8 billion by 2030**. This study
 
 ---
 
-## 🔬 Research Contributions
+##  Research Contributions
 
 This work delivers four distinct contributions:
 
@@ -34,7 +34,7 @@ This work delivers four distinct contributions:
 
 ---
 
-## 🗃️ Data Characteristics and Preprocessing
+##  Data Characteristics and Preprocessing
 
 ### Dataset Description (Chatbot Intents Dataset)
 The dataset selection followed four requirements:
@@ -63,7 +63,7 @@ The dataset selection followed four requirements:
 
 ---
 
-## 💻 Algorithmic Approaches
+##  Algorithmic Approaches
 
 ### Approach One: Logistic Regression (Machine Learning)
 
@@ -104,7 +104,7 @@ A statistical linear classifier that predicts class membership based on weighted
 
 ---
 
-## 📈 Results and Analysis
+##  Results and Analysis
 
 ### Evaluation Metrics
 
@@ -130,10 +130,10 @@ A statistical linear classifier that predicts class membership based on weighted
 
 ---
 
-## 💬 Discussion and Recommendations
+##  Discussion and Recommendations
 
 ### Deep Learning Performance Superiority
-The ANN’s dense network structure enables **non-linear decision boundaries**, effectively capturing complex semantic relationships that linear models like Logistic Regression overlook. This allows the network to generalize better on unseen and paraphrased user inputs.
+**Non-linear decision boundaries** are made possible by the dense network structure of the ANN, which successfully captures intricate semantic correlations that are missed by linear models such as Logistic Regression.  This improves the network's ability to generalise on unseen and paraphrased human input.
 
 ### Trade-Off Analysis and Deployment Recommendations
 
@@ -155,10 +155,10 @@ While transformer-based models (BERT, RoBERTa) achieve $>96\%$ intent recognitio
 
 ---
 
-## ✅ Conclusions
+##  Conclusions
 
 ### Summary of Contributions
-This project successfully conducted a systematic comparison of Machine Learning and Deep Learning techniques for intent classification. The results clearly demonstrate the **superiority of neural models** in natural language understanding for this task, while providing a clear perspective on the computational trade-offs.
+This study efficiently compared deep learning and machine learning methods for intent categorisation in a methodical manner.  The outcomes give an accurate depiction of the technical trade-offs and amply illustrate the **superiority of neural models** in natural language processing for this kind of work.
 
 ### Key Findings
 1.  ANN achieves $\mathbf{93\%}$ accuracy versus $\mathbf{88\%}$ for Logistic Regression.
@@ -174,7 +174,7 @@ Intent detection forms the basis for next-generation conversational agents. Adop
 * Deploy using Flask API or Streamlit UI for interactive chatbot interfaces.
 * Expand dataset with multi-domain, multilingual intents.
 
-## 📑 References
+##  References
 * Chatbot Intents Dataset – Kaggle
 * Scikit-learn Documentation
 * TensorFlow/Keras
