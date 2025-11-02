@@ -29,3 +29,29 @@ Both models are trained on a text-based **Chatbot Intents Dataset** and evaluate
   "patterns": ["Hi", "Hello", "Hey there", "Good morning"],
   "responses": ["Hello!", "Hi there! How can I help you?"]
 }
+
+📊 Data Overview
+
+Total intents: ~10–12
+
+Total text samples: ~100–120
+
+Each intent contains multiple patterns (user queries) and corresponding responses.
+
+🧩 Methods
+
+This notebook implements and compares two NLP approaches for intent classification.
+
+🧠 1️⃣ Logistic Regression (Machine Learning)
+
+Approach:
+
+Preprocess text (cleaning, tokenization, lemmatization)
+
+Convert text to vectors using TF-IDF Vectorizer
+
+Train Logistic Regression classifier to predict intent labels
+from sklearn.linear_model import LogisticRegression
+model_lr = LogisticRegression(max_iter=300)
+model_lr.fit(X_train_vec, y_train)
+
